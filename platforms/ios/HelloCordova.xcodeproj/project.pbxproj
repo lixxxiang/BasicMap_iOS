@@ -24,6 +24,11 @@
 		944270C51E5AD4B10037B87B /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 944270C31E5AD4B10037B87B /* VideoViewController.xib */; };
 		944270CB1E5BDD880037B87B /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 944270CA1E5BDD880037B87B /* back.png */; };
 		944270CD1E5BE2AD0037B87B /* video.png in Resources */ = {isa = PBXBuildFile; fileRef = 944270CC1E5BE2AD0037B87B /* video.png */; };
+		94BA19A61E7B7CA60034EA5D /* layer_B.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BA19A11E7B7CA60034EA5D /* layer_B.png */; };
+		94BA19A71E7B7CA60034EA5D /* locate_B.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BA19A21E7B7CA60034EA5D /* locate_B.png */; };
+		94BA19A81E7B7CA60034EA5D /* satellite_B.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BA19A31E7B7CA60034EA5D /* satellite_B.png */; };
+		94BA19A91E7B7CA60034EA5D /* home_B.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BA19A41E7B7CA60034EA5D /* home_B.png */; };
+		94BA19AA1E7B7CA60034EA5D /* compass_B.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BA19A51E7B7CA60034EA5D /* compass_B.png */; };
 		94F711A51E76363200929596 /* Video2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F711A41E76363200929596 /* Video2ViewController.m */; };
 		94F711A71E763A6C00929596 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F711A61E763A6C00929596 /* libz.tbd */; };
 		94F711A91E763A7500929596 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F711A81E763A7500929596 /* libbz2.tbd */; };
@@ -92,6 +97,11 @@
 		944270C31E5AD4B10037B87B /* VideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoViewController.xib; sourceTree = "<group>"; };
 		944270CA1E5BDD880037B87B /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		944270CC1E5BE2AD0037B87B /* video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video.png; sourceTree = "<group>"; };
+		94BA19A11E7B7CA60034EA5D /* layer_B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = layer_B.png; sourceTree = "<group>"; };
+		94BA19A21E7B7CA60034EA5D /* locate_B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locate_B.png; sourceTree = "<group>"; };
+		94BA19A31E7B7CA60034EA5D /* satellite_B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = satellite_B.png; sourceTree = "<group>"; };
+		94BA19A41E7B7CA60034EA5D /* home_B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_B.png; sourceTree = "<group>"; };
+		94BA19A51E7B7CA60034EA5D /* compass_B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass_B.png; sourceTree = "<group>"; };
 		94F711A31E76363200929596 /* Video2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video2ViewController.h; sourceTree = "<group>"; };
 		94F711A41E76363200929596 /* Video2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video2ViewController.m; sourceTree = "<group>"; };
 		94F711A61E763A6C00929596 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -292,6 +302,11 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				94BA19A11E7B7CA60034EA5D /* layer_B.png */,
+				94BA19A21E7B7CA60034EA5D /* locate_B.png */,
+				94BA19A31E7B7CA60034EA5D /* satellite_B.png */,
+				94BA19A41E7B7CA60034EA5D /* home_B.png */,
+				94BA19A51E7B7CA60034EA5D /* compass_B.png */,
 				944270CC1E5BE2AD0037B87B /* video.png */,
 				944270CA1E5BDD880037B87B /* back.png */,
 				944270BF1E5ACB250037B87B /* satellite.png */,
@@ -636,15 +651,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BA19A61E7B7CA60034EA5D /* layer_B.png in Resources */,
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				94BA19AA1E7B7CA60034EA5D /* compass_B.png in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				58604AED1E55811800D5ED5A /* home.png in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
 				94F712371E76432E00929596 /* Video3ViewController.xib in Resources */,
 				58604AEF1E55815700D5ED5A /* compass.png in Resources */,
 				944270C01E5ACB250037B87B /* satellite.png in Resources */,
+				94BA19A71E7B7CA60034EA5D /* locate_B.png in Resources */,
+				94BA19A91E7B7CA60034EA5D /* home_B.png in Resources */,
 				58604AF11E559EDD00D5ED5A /* layer_c.png in Resources */,
 				944270CD1E5BE2AD0037B87B /* video.png in Resources */,
+				94BA19A81E7B7CA60034EA5D /* satellite_B.png in Resources */,
 				944270CB1E5BDD880037B87B /* back.png in Resources */,
 				94F711B91E763AD200929596 /* kxmovie.bundle in Resources */,
 				58604AE91E55800200D5ED5A /* layer.png in Resources */,
